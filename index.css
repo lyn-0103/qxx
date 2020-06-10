@@ -1,0 +1,448 @@
+/* 上部分 */
+ body{
+	background: url('img/timj.jpg') repeat;
+} 
+.top{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	background: url('img/bg.png') no-repeat 240px -6px;
+	margin-bottom: 20px;
+}
+/* logo */
+
+.top .left{
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	/* margin-bottom: 20px; */
+}
+.top .left img{
+	width: 250px;
+	height: 100px;
+}
+
+ 
+
+.top ul{
+	float: left;
+	
+	padding-right: 30px;
+}
+.top .right li{
+	margin-top: 70px;
+	text-align: center;
+	float: left;
+	margin-left:96px;
+
+}
+.top .right li a{
+	color: #555;
+	font-size: 30px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.top .right li a:hover{
+	color: red;
+	border-bottom: 1px solid black;
+
+}
+.top .right li .special{
+	margin-left: 10px;
+}
+
+
+/* 搜索框 */
+.top .right form{
+	float: right;
+	margin-top: 64px;
+
+
+}
+
+.top .search{
+	
+	float: left;
+	width:200px;
+	height:44px;
+	padding-left: 10px;
+	border: 2px solid black;
+	font-size: 16px;
+}
+.top .submit{
+
+	float: left;
+	width:30px;
+	height:48px;
+	background:black url('img/search.png') no-repeat center center;
+	border: 1px solid black;
+	
+}
+
+
+/* 登录页面 */
+.login{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	/* position: relative; */
+}
+.login li{
+	color: #666;
+	font-size: 40px;
+}
+.login .char1{
+	float: left;
+	margin-top: 80px;
+	/* left: 0; */
+}
+.login .char2{
+	float: left;
+	margin-top: 160px;
+	margin-left: 40px;
+}
+.login img{
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.login .sign{
+	border: 1px solid black;
+	text-align: center;
+	position: relative; 
+	float: right;
+	margin-top: 32px;
+	/* right: 0px; */
+	width: 550px;
+	height: 496px;
+}
+.login .sign p{
+	font-size: 50px;
+	margin-top: 40px;
+}
+.login .sign input{
+	display: block;
+	width: 500px;
+	height: 60px;
+	margin: 50px 20px;
+	font-size: 30px;
+	padding-left:5px; 
+
+}
+
+.login .sign a{
+	color: #777;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.login .sign a:hover{
+	color: #8ac;
+}
+
+/* 下边 */
+.decoration{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	line-height: 40px;
+}
+.wenlu{
+	margin: 0 auto;
+	width：1200px;
+	text-align: center;
+	background: url('img/bg-title.png') no-repeat center center;
+}
+.wenlu h1{
+	margin-top:10px; 
+	color: #009;
+	margin-bottom: 40px;
+	
+}
+/*introduce */
+
+.introduce{
+	margin: 0 auto;
+	width: 1200px;
+	text-align: center;
+}
+/* banner图 */
+.banner{
+	position: relative;
+	height: 400px;
+	width: 320px;
+	float: left;
+}
+.banner li{
+
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+.banner img{
+	width: 320px;
+	height: 400px;
+}
+
+#prev,#next{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 10px;
+	top: 180px;
+	opacity: 0.5;
+}
+#next{
+	left: auto;
+	right: 10px;
+}
+/* 老秦简介 */
+.introduce .ul1{
+	float: left;
+	margin-top: 84px;
+	margin-left: 80px;	
+}
+
+.introduce .ul1 li{
+	font-size: 36px;
+	color: #836;
+	height: 60px;
+}
+
+
+/* 列表 */
+
+.introduce .ul2{
+	float: right;
+
+}
+.introduce .ul2 li{
+	float: left;
+	border: 1px solid black;
+	width: 240px;
+	height: 400px;
+	position: relative;
+	font-size: 30px;
+}
+.introduce .ul2 li h3{
+	color: white;
+	margin: 40px 10px 70px 10px;
+}
+.introduce .ul2 li p{
+	color: white;
+	margin: 30px 10px;
+}
+.introduce .ul2 li span{
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	font-size: 20px;
+}
+.introduce .ul2 li span a{
+	color: #090;
+}
+
+.ul2 .first{
+	opacity: 0.6;
+	background: url('img/31.jpg') no-repeat center center;
+}
+.ul2 .second{
+	opacity: 0.6;
+	background: url('img/21.jpg') no-repeat center center;
+}
+.ul2 .third{
+	opacity: 0.6;
+	background: url('img/57.jpg') no-repeat center center;
+}
+
+/* 相声 */
+
+.title{
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.title h2{
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+}
+.title h2:before{
+	content: "";
+	position: absolute;
+	left: -120px;
+	width: 100px;
+	height: 2px;
+	background: red;
+	top: 15px;
+}
+.title h2:after{
+	content: "";
+	position: absolute;
+	right: -120px;
+	width: 100px;
+	height: 2px;
+	background: red;
+	top: 15px;
+}
+.title a{
+	float: right;
+	color: black;
+	margin-top: 26px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.xiangsheng{
+	margin: 0 auto;
+	text-align: center;
+	width: 1200px;
+	padding-top: 20px;
+}
+.xiangsheng .num{
+	float: left;
+	width: 600px;
+	height: 200px;
+	
+}
+.xiangsheng img{
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+.xiangsheng .img1{
+	float: right;
+	text-align: left;
+	font-size: 22px;
+	margin-top: 50px; 
+	line-height: 30px;
+	margin-right: 46px;
+} 
+.xiangsheng .img2{
+	float: right;
+	width: 600px;
+	height: 200px;
+	
+}
+
+.xiangsheng .img3{
+	margin-bottom: 20px;
+}
+
+
+/* 综艺和采访 */
+.zongyi{
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.zongyi h2{
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+}
+.zongyi h2:before{
+	content: "";
+	position: absolute;
+	left: -120px;
+	width: 100px;
+	height: 2px;
+	background: red;
+	top: 15px;
+}
+.zongyi h2:after{
+	content: "";
+	position: absolute;
+	right: -120px;
+	width: 100px;
+	height: 2px;
+	background: red;
+	top: 15px;
+}
+.zongyi a{
+	float: right;
+	color: black;
+	margin-top: 26px;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+/* 综艺内容 */
+
+.zongyicon{
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+	margin-bottom: 20px;
+}
+
+.zongyicon img{
+	width: 280px;
+	height: 400px;
+} 
+
+.zongyicon li{
+	float: left;
+
+	position: relative;
+	width: 280px;
+	height: 400px;
+	margin-right: 26px;
+}
+.zongyicon .last{
+	margin-right: 0px;
+}
+.zongyicon li div{
+	width: 280px;
+	height: 80px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background: rgba(100,100,100, 0.7)
+}
+.zongyicon .one{
+	position: absolute;
+	left: 10px;
+}
+.zongyicon li .one{
+	position: absolute;
+	left: 40px;
+	top: 16px;
+	font-size: 20px;
+	color: white;
+
+}
+.zongyicon li .two{
+	position: absolute;
+	left: 40px;
+	bottom: 5px;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+/* 版权 */
+
+.banquan{
+	margin-top: 46px;
+	width: 100%;
+	height: 200px;
+	background: black;
+	text-align: center;
+}
+.banquan p{
+	color: white;
+	line-height: 200px;
+	font-size: 25px;
+}
+a:hover{
+	color: #00b;
+}
