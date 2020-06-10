@@ -135,10 +135,12 @@
 }
 
 .login .sign a{
-	color: #777;
+	color: black;
 	position: absolute;
 	right: 10px;
 	bottom: 10px;
+	font-size: 24px;
+
 }
 .login .sign a:hover{
 	color: #8ac;
